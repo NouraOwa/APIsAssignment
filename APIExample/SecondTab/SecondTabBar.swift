@@ -1,13 +1,13 @@
 //
-//  TabBar.swift
+//  SecondTabBar.swift
 //  APIExample
 //
-//  Created by Noura Alowayid on 10/11/1444 AH.
+//  Created by Noura Alowayid on 11/11/1444 AH.
 //
 
 import SwiftUI
 
-struct TabBar: View {
+struct SecondTabBar: View {
     @State var selectedTab = 0
     
     var body: some View {
@@ -15,21 +15,21 @@ struct TabBar: View {
             VStack {
                 TabView {
                     // First tab
-                    IMDpMovies()
+                    Reciepe()
                         .tabItem {
                             Image(systemName: "house")
                             Text("Home")
                         }
                     
                     // Second tab
-                   Jokes()
+                    PlanetList()
                         .tabItem {
                             Image(systemName: "rectangle.fill.on.rectangle.fill")
                             Text("Feed")
                         }
                     
                     // Third tab
-                    CitiesAPI()
+                    CountriesFlags()
                         .tabItem {
                             Image(systemName: "person")
                             Text("Profile")
@@ -37,14 +37,14 @@ struct TabBar: View {
                         }
                     
                     // Fourth tab
-                    RandomWord()
+                    CoinFlip()
                         .tabItem {
                             Image(systemName: "flag")
                             Text("Profile")
                             
                         }
-                    // fivth tab
-                    PlanetsAPI()
+                    // Fiveth tab
+                    News()
                         .tabItem {
                             Image(systemName: "timer")
                             Text("Profile")
@@ -56,8 +56,8 @@ struct TabBar: View {
     }
 }
 
-struct TabBar_Previews: PreviewProvider {
+struct SecondTabBar_Previews: PreviewProvider {
     static var previews: some View {
-        TabBar()
+        SecondTabBar()
     }
 }

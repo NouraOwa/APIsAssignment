@@ -17,18 +17,22 @@ struct Planet: Codable, Identifiable{
 struct PlanetsAPI: View {
     @State private var planet = Planet(name: "", temperature: 0 )
     var body: some View {
-        ScrollView{
-            
-            VStack {
-                Text(planet.name)
-                    .frame (maxWidth: .infinity)
-                    .foregroundColor (.white)
-                    .font (.title2)
-                    .padding(.all, 24)
-                    .background (.gray)
-                    .padding (.bottom, 30)
-                Text("\(planet.temperature)")
-        }
+        NavigationStack {
+            ScrollView{
+                
+                VStack {
+                    NavigationLink(destination: SecondTabBar()) {
+                        
+                        Text(planet.name)
+                            .frame (maxWidth: .infinity)
+                            .foregroundColor (.white)
+                            .font (.title2)
+                            .padding(.all, 24)
+                            .background (.gray)
+                        .padding (.bottom, 30)}
+                    Text("\(planet.temperature)")
+                }
+            }
         }
         .task {
             await loadData()
@@ -39,10 +43,10 @@ struct PlanetsAPI: View {
         do {
             //                try! await Task.sleep(nanoseconds: 3_000_000_000)
             let name = "Neptune".addingPercentEncoding(withAllowedCharacters: .urlQueryAllowed)
-            let url = URL(string: "https://api.api-ninjas.com/v1/planets?name="+name!)!
+            let url = URL(string: "https://planets-by-api-ninjas.p.rapidapi.com/v1/planets?name=Mars")!
             var request = URLRequest (url: url)
-            request.setValue("r5KH4fSoLgFaSwo69uUsxw==FDkbnI4CgVWATJp4", forHTTPHeaderField:
-                                "X-Api-Key")
+            request.setValue("7a426fa361mshe5a681fa501fae6p1a95b9jsn65ca0a543894", forHTTPHeaderField:
+                                "X-RapidAPI-Key")
             
             let (data, _) = try await URLSession.shared.data(for: request)
             
