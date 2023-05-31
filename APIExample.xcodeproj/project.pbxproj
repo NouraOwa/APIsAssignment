@@ -17,6 +17,19 @@
 		03A7F2502A260F9B001849F8 /* CitiesAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A7F24F2A260F9B001849F8 /* CitiesAPI.swift */; };
 		03A7F2522A262251001849F8 /* RandomWord.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A7F2512A262251001849F8 /* RandomWord.swift */; };
 		03A7F2542A2623A3001849F8 /* PlanetsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03A7F2532A2623A3001849F8 /* PlanetsAPI.swift */; };
+		03BFCD182A26C2C300B471C4 /* SecondTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCD172A26C2C300B471C4 /* SecondTabBar.swift */; };
+		03BFCD1A2A26C5F600B471C4 /* CountriesFlags.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCD192A26C5F600B471C4 /* CountriesFlags.swift */; };
+		03BFCD202A26D46900B471C4 /* Reciepe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCD1F2A26D46900B471C4 /* Reciepe.swift */; };
+		03BFCD222A26D71000B471C4 /* PlanetList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCD212A26D70F00B471C4 /* PlanetList.swift */; };
+		03BFCD242A26DC4100B471C4 /* CoinFlip.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCD232A26DC4100B471C4 /* CoinFlip.swift */; };
+		03BFCD282A26EF4800B471C4 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCD272A26EF4800B471C4 /* News.swift */; };
+		03BFCD2B2A26F7B200B471C4 /* Flights.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCD2A2A26F7B200B471C4 /* Flights.swift */; };
+		03BFCD2E2A26F8EF00B471C4 /* ThirdTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCD2D2A26F8EF00B471C4 /* ThirdTabBar.swift */; };
+		03BFCD322A26FDE400B471C4 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCD312A26FDE400B471C4 /* Quotes.swift */; };
+		03BFCD342A27020C00B471C4 /* Facts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCD332A27020C00B471C4 /* Facts.swift */; };
+		03BFCD362A2702D000B471C4 /* RandomJokes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCD352A2702D000B471C4 /* RandomJokes.swift */; };
+		03BFCD382A2703E300B471C4 /* RandomYesNo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCD372A2703E300B471C4 /* RandomYesNo.swift */; };
+		03BFCD3A2A27065900B471C4 /* FamousQoutes.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BFCD392A27065900B471C4 /* FamousQoutes.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +44,19 @@
 		03A7F24F2A260F9B001849F8 /* CitiesAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CitiesAPI.swift; sourceTree = "<group>"; };
 		03A7F2512A262251001849F8 /* RandomWord.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomWord.swift; sourceTree = "<group>"; };
 		03A7F2532A2623A3001849F8 /* PlanetsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetsAPI.swift; sourceTree = "<group>"; };
+		03BFCD172A26C2C300B471C4 /* SecondTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondTabBar.swift; sourceTree = "<group>"; };
+		03BFCD192A26C5F600B471C4 /* CountriesFlags.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CountriesFlags.swift; sourceTree = "<group>"; };
+		03BFCD1F2A26D46900B471C4 /* Reciepe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reciepe.swift; sourceTree = "<group>"; };
+		03BFCD212A26D70F00B471C4 /* PlanetList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlanetList.swift; sourceTree = "<group>"; };
+		03BFCD232A26DC4100B471C4 /* CoinFlip.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinFlip.swift; sourceTree = "<group>"; };
+		03BFCD272A26EF4800B471C4 /* News.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		03BFCD2A2A26F7B200B471C4 /* Flights.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flights.swift; sourceTree = "<group>"; };
+		03BFCD2D2A26F8EF00B471C4 /* ThirdTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdTabBar.swift; sourceTree = "<group>"; };
+		03BFCD312A26FDE400B471C4 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		03BFCD332A27020C00B471C4 /* Facts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facts.swift; sourceTree = "<group>"; };
+		03BFCD352A2702D000B471C4 /* RandomJokes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomJokes.swift; sourceTree = "<group>"; };
+		03BFCD372A2703E300B471C4 /* RandomYesNo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomYesNo.swift; sourceTree = "<group>"; };
+		03BFCD392A27065900B471C4 /* FamousQoutes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FamousQoutes.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +102,8 @@
 		036E767F2A256F0600CE0463 /* APIExample */ = {
 			isa = PBXGroup;
 			children = (
+				03BFCD292A26F71100B471C4 /* ThirdTab */,
+				03BFCD162A26C29A00B471C4 /* SecondTab */,
 				0342505D2A26C0C000C0FBBD /* FirstTab */,
 				036E76802A256F0600CE0463 /* APIExampleApp.swift */,
 				036E76822A256F0600CE0463 /* ContentView.swift */,
@@ -91,6 +119,33 @@
 				036E76872A256F0700CE0463 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		03BFCD162A26C29A00B471C4 /* SecondTab */ = {
+			isa = PBXGroup;
+			children = (
+				03BFCD172A26C2C300B471C4 /* SecondTabBar.swift */,
+				03BFCD192A26C5F600B471C4 /* CountriesFlags.swift */,
+				03BFCD1F2A26D46900B471C4 /* Reciepe.swift */,
+				03BFCD212A26D70F00B471C4 /* PlanetList.swift */,
+				03BFCD232A26DC4100B471C4 /* CoinFlip.swift */,
+				03BFCD272A26EF4800B471C4 /* News.swift */,
+			);
+			path = SecondTab;
+			sourceTree = "<group>";
+		};
+		03BFCD292A26F71100B471C4 /* ThirdTab */ = {
+			isa = PBXGroup;
+			children = (
+				03BFCD2A2A26F7B200B471C4 /* Flights.swift */,
+				03BFCD2D2A26F8EF00B471C4 /* ThirdTabBar.swift */,
+				03BFCD312A26FDE400B471C4 /* Quotes.swift */,
+				03BFCD332A27020C00B471C4 /* Facts.swift */,
+				03BFCD352A2702D000B471C4 /* RandomJokes.swift */,
+				03BFCD372A2703E300B471C4 /* RandomYesNo.swift */,
+				03BFCD392A27065900B471C4 /* FamousQoutes.swift */,
+			);
+			path = ThirdTab;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -164,13 +219,26 @@
 			buildActionMask = 2147483647;
 			files = (
 				036E768F2A256FC900CE0463 /* TabBar.swift in Sources */,
+				03BFCD242A26DC4100B471C4 /* CoinFlip.swift in Sources */,
+				03BFCD2B2A26F7B200B471C4 /* Flights.swift in Sources */,
+				03BFCD2E2A26F8EF00B471C4 /* ThirdTabBar.swift in Sources */,
 				03A7F2502A260F9B001849F8 /* CitiesAPI.swift in Sources */,
 				036E76952A25781400CE0463 /* IMDpMovies.swift in Sources */,
+				03BFCD3A2A27065900B471C4 /* FamousQoutes.swift in Sources */,
+				03BFCD282A26EF4800B471C4 /* News.swift in Sources */,
 				03A7F2522A262251001849F8 /* RandomWord.swift in Sources */,
 				036E76832A256F0600CE0463 /* ContentView.swift in Sources */,
 				03697FA72A25C0BA004F81C5 /* Jokes.swift in Sources */,
+				03BFCD1A2A26C5F600B471C4 /* CountriesFlags.swift in Sources */,
 				036E76812A256F0600CE0463 /* APIExampleApp.swift in Sources */,
+				03BFCD362A2702D000B471C4 /* RandomJokes.swift in Sources */,
+				03BFCD222A26D71000B471C4 /* PlanetList.swift in Sources */,
+				03BFCD342A27020C00B471C4 /* Facts.swift in Sources */,
+				03BFCD202A26D46900B471C4 /* Reciepe.swift in Sources */,
+				03BFCD322A26FDE400B471C4 /* Quotes.swift in Sources */,
+				03BFCD182A26C2C300B471C4 /* SecondTabBar.swift in Sources */,
 				03A7F2542A2623A3001849F8 /* PlanetsAPI.swift in Sources */,
+				03BFCD382A2703E300B471C4 /* RandomYesNo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
